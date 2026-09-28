@@ -28,3 +28,12 @@ def main():
  print("This operation is not implemented yet.")
 if __name__ == "__main__":
  main()
+ def add(a, b):
+ """Return the sum of a and b."""
+ return a + b
+# Inside main(), replace the choice == "1" placeholder with:
+ if choice == "1":
+ num1 = get_number("Enter the first number: ")
+ num2 = get_number("Enter the second number: ")
+ result = add(num1, num2)
+ print(f"Result: {num1} + {num2} = {result}")
